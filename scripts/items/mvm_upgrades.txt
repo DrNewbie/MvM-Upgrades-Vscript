@@ -467,7 +467,7 @@
 			"attribute"	"dmg taken from fire reduced"
 			"icon"		"mvm/upgradeicons/upgrade_resistance_fire"
 			"increment"	"-0.10"
-			"cap"		"0.60"
+			"cap"		"0.10"
 			"cost"		"150"
 		}
 		"2"
@@ -475,7 +475,7 @@
 			"attribute"	"dmg taken from blast reduced"
 			"icon"		"achievements/tf_demoman_kill_x_heavies_fullhp_onedet"
 			"increment"	"-0.10"
-			"cap"		"0.60"
+			"cap"		"0.10"
 			"cost"		"300"
 		}
 		"3"
@@ -483,15 +483,15 @@
 			"attribute"	"dmg taken from bullets reduced"
 			"icon"		"mvm/upgradeicons/upgrade_resistance_bullet"
 			"increment"	"-0.10"
-			"cap"		"0.60"
+			"cap"		"0.10"
 			"cost"		"300"
 		}
 		"4"
 		{
 			"attribute"	"dmg taken from crit reduced"
 			"icon"		"achievements/tf_soldier_shoot_mult_crits"
-			"increment"	"-0.3"
-			"cap"		"0.1"
+			"increment"	"-0.33"
+			"cap"		"0.01"
 			"cost"		"150"
 		}
 		"5"
