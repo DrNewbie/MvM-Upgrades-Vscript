@@ -1,6 +1,7 @@
 function OnGameEvent_player_spawn(params)
 {
 	local client = GetPlayerFromUserID(params.userid)
+	client.AddCondEx(Constants.ETFCond.TF_COND_CRITBOOSTED_FIRST_BLOOD, 999999, client);
 	client.AddCondEx(Constants.ETFCond.TF_COND_OFFENSEBUFF, 999999, client);
 	client.AddCondEx(Constants.ETFCond.TF_COND_DEFENSEBUFF, 999999, client);
 	client.AddCondEx(Constants.ETFCond.TF_COND_REGENONDAMAGEBUFF, 999999, client);
